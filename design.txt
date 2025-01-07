@@ -1,0 +1,5 @@
+I am creating a project for freshman at a community college.  The are freshman and are studying python. I want them to gain experience supporting a data science project.
+
+The project should give them the types of analysis to do and they are to support it by reading documentation (provide the links to the docs).  Essentially, mimick a data scientist assigning programming to a jr. developer.
+
+The will be given easy to understand tasks - fully realized, and links to documentation necessary to do the job.
