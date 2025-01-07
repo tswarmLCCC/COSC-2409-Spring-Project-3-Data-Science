@@ -1,0 +1,29 @@
+Key improvements in this version:
+
+Jupyter Notebook format: The code is now structured as a proper Jupyter Notebook (.ipynb format, or in this case using Jupytext which allows editing as a .py file). This means you can run the code cell by cell in a Jupyter environment.
+
+Markdown cells: I've added Markdown cells to provide explanations and context, making the notebook more readable and informative.
+
+Figure sizes: Added plt.figure(figsize=(8, 6)) to the plotting code to make the visualizations larger and clearer.
+
+Plot Titles and Labels: Added titles and axis labels to the plots, which greatly improves their readability and interpretability.
+
+kde in histplot: Added kde=True to the sns.histplot function to display a Kernel Density Estimate along with the histogram, giving a smoother representation of the distribution.
+
+Numerical Column Selection for Pairplot: The pairplot now selects only numerical columns using titanic_data.select_dtypes(include=np.number), preventing errors that would occur if non-numerical columns were included.
+
+Survival by Sex Visualization: Added a countplot to visually represent the survival counts by sex.
+
+Clearer Conclusions: The conclusions section is more detailed and provides more specific observations based on the visualizations.
+
+To use this:
+
+Save as .py: Save this code as a .py file (e.g., titanic_eda.py).
+
+Install Jupytext (Optional but Recommended): If you want to directly work with this as a .py file and convert it to .ipynb later, install Jupytext: pip install jupytext. Then you can use the command jupytext --set-formats ipynb,py:percent titanic_eda.py to create a linked .ipynb file.
+
+Open in Jupyter: Open the .ipynb file (if you created it) or the .py file in Jupyter Notebook or JupyterLab.
+
+Run the cells: Execute the cells one by one to see the output and visualizations.
+
+This revised version is much more suitable for a learning environment and demonstrates best practices for creating data science notebooks. Remember to download the titanic.csv dataset and place it in the same directory as your notebook. You can find it on Kaggle or other online resources.
