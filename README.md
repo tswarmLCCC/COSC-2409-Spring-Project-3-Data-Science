@@ -1,6 +1,8 @@
 # COSC-2409-Spring-Project-3-Data-Science
 
-Okay, here's the project rephrased as an assignment from an employer to a junior developer, with all documentation links explicitly provided and a more professional tone.
+You are a junior developer at a data science firm.  Your task is to take these notes from a senior member of your team and stand up the start of a data science notebook.
+
+(Note:  Please see the assignment page for notes on getting started with Google Colab if you'd like to use that for your notebook enviornment.  It is a free, online tool that requires no setup up front.)
 
 **Subject: Data Analysis Project - Titanic Dataset Exploration**
 
