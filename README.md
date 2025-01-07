@@ -105,4 +105,4 @@ Please complete the following tasks within a Jupyter Notebook, ensuring your cod
 
 We expect clear, well-documented code and a thorough analysis of the data. Please reach out to the Data Science team (your instructor) if you have any questions.
 
-This version provides a more structured and professional tone, mimicking a real-world work assignment. It also includes all documentation links, removing any ambiguity.
+
